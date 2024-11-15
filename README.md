@@ -23,7 +23,7 @@ Si prefieres ejecutar el proyecto en un contenedor Docker, asegúrate de tener D
 1. Clona este repositorio en tu máquina local:
    ```bash
    git clone https://github.com/yadier2/device-hub-fronted
-   cd devicehub
+   cd device-hub-fronted
 1. Construye y corre los contenedores usando Docker Compose:
    ```bash
    docker-compose up --build
