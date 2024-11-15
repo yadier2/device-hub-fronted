@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+# DeviceHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DeviceHub es una aplicación CRUD para gestionar dispositivos de forma eficiente. 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descripción
 
-## Expanding the ESLint configuration
+DeviceHub es una plataforma que te permite gestionar dispositivos de manera sencilla. Puedes agregar nuevos dispositivos, visualizar los existentes, actualizarlos o eliminarlos según sea necesario. La aplicación está pensada para ofrecer una experiencia fluida y fácil de usar.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Requisitos
 
-- Configure the top-level `parserOptions` property like this:
+Para ejecutar este proyecto de manera local, debes tener instalados los siguientes programas:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- [Node.js](https://nodejs.org/) (incluye NPM)
+- [Docker](https://www.docker.com/get-started) (si deseas ejecutar la aplicación en un contenedor Docker)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🔥 Instalación
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Usando Docker
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Si prefieres ejecutar el proyecto en un contenedor Docker, asegúrate de tener Docker instalado y sigue estos pasos:
+
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/usuario/devicehub.git
+   cd devicehub
+1. Construye y corre los contenedores usando Docker Compose:
+   ```bash
+   docker-compose up --build
+
+## 🌟 Autor
+
+Yadier Caicedo Martinez [https://github.com/yadier2/](https://github.com/yadier2/)
