@@ -1,0 +1,98 @@
+#root {
+  padding: 0 10px;
+}
+
+.avatar {
+  max-width: 100px;
+  width: 100%;
+    border-radius: 50%;
+    height: fit-content;
+  }
+
+
+.infoUser{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.userTex {
+  margin: 0;
+}
+.list-device h2 {
+
+  text-align: center;
+}
+
+table {
+  margin-top: 20px;
+width: 100%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+thead {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+
+.action-cell {
+  display: flex;
+  gap: 10px; 
+  
+}
+
+.add-link {
+  color: #388e3c;            
+  text-decoration: none;      
+  padding: 8px 12px;
+  border: 1px solid #388e3c;   
+  border-radius: 4px;
+  background-color: #e8f5e9; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.add-link:hover {
+  background-color: #388e3c;   
+  color: white;                
+}
+
+.edit-link {
+  color: #007bff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  background-color: #f0f8ff;
+  transition: background-color 0.3s ease;
+}
+
+.edit-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  border: 1px solid #dc3545;
+  border-radius: 4px;
+  background-color: #f8d7da;
+  color: #dc3545;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
